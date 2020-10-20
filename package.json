@@ -1,0 +1,23 @@
+{
+  "name": "11tyDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronharinck/siteTo11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronharinck/siteTo11ty/issues"
+  },
+  "homepage": "https://github.com/aaronharinck/siteTo11ty#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
