@@ -33,48 +33,7 @@
     </header>
     <div class="container">
 
-        
-<main class="content">
-  <div class="content__container">
-    <header class="content__header">
-      <h2 class="content__header__title">
-        <a href="index.html" class="content__header__link">Prikkel Fixer</a> -
-        Inhuren
-      </h2>
-    </header>
-  </div>
-  <section class="respons hire">
-    <h3 class="hidden">Get notified!</h3>
-    <div class="hire__content">
-      <p class="hire__title">
-        Sorry, de prikkelfixer is niet meer beschikbaar tot eind 2025.
-      </p>
-      <p class="form__intro">
-        Wilt u een mailtje krijgen wanneer de fixer weer beschikbaar is?
-      </p>
-      <form class="notify-form" action="index.html" method="get">
-        <label class="notify-form__input-field"
-          >E-mail
-          <input
-            type="email"
-            name="email"
-            placeholder="Vul dan hier je Email address in"
-            required
-            autofocus
-            class="notify-form__input"
-          />
-        </label>
-        <input
-          class="notify-form__submit"
-          type="submit"
-          value="Notificeer mij"
-        />
-      </form>
-      <a href="index.html" class="button__back">Teruggaan</a>
-    </div>
-  </section>
-</main>
- 
+        {{ content | safe }} 
 
         <footer class="footer">
                 <p class="footer__text">Aaron Harinck - 1 DEV</p>

@@ -5,10 +5,12 @@ module.exports = eleventyConfig => {
 
   return {
     addPassthroughFileCopy: true, // copy passthrough files
+    markdownTemplateEngine: "njk", //use nunjuks for easier markdown
+    templateFormats: ["html", "njk", "md"],
     dir: {
       input: "src", // layouts, html ...
       output: "_site", // you can pick any foldername you want
-      include: "includes", // where do you want your views
+      includes: "includes", // where do you want your views
     },
   };
 };
