@@ -34,7 +34,9 @@
     
     <div class="container">
 
-        {{ content | safe }} 
+            {% block content %} <!-- make it so that this block can be overwritten by other templates -->
+               {{content | safe }}
+            {% endblock content %}
 
         <footer class="footer">
                 <p class="footer__text">Aaron Harinck - 1 DEV</p>
